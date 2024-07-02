@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contenedor {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677 0%, #4e085f);
+    padding: 10px;
+
+}
+
+.app {
+    width: 100%;
+    max-width: 540px;
+    background-color: #FFFFFF;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.input-text {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;    
+}
+
+.boton-primario {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.boton-delete {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+
+.item-texto {
+    user-select: none;
+    cursor: pointer;
+}
+
+input:checked + label {
+    color: #555;
+    text-decoration: line-through;
+
+}
+
+
+  
